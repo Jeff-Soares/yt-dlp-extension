@@ -1,0 +1,9 @@
+{
+  "name": "com.jx.yt_dlp",
+  "description": "Download video using yt-dlp",
+  "path": "script.bat",
+  "type": "stdio",
+  "allowed_extensions": [
+    "yt-dlp@jx.com"
+  ]
+}
