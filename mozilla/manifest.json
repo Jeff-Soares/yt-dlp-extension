@@ -10,6 +10,9 @@
   "action": {
     "default_title": "Download video"
   },
+	"icons": {
+		"128": "assets/ic-128.png"
+	},
   "browser_specific_settings": {
     "gecko": {
       "id": "yt-dlp@jx.com"
