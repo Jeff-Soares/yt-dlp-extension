@@ -3,7 +3,6 @@
   "description": "Download video using yt-dlp",
   "path": "script.bat",
   "type": "stdio",
-  "allowed_extensions": [
-    "yt-dlp@jx.com"
-  ]
+  "allowed_extensions": ["yt-dlp@jx.com"],
+  "allowed_origins": ["chrome-extension://fpadpnnbgjmjppfgfecokpbldkadlibl/"]
 }

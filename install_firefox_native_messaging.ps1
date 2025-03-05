@@ -23,7 +23,7 @@ if (-not (Test-Path $destinationPath)) {
 
 Copy-Item -Path "script.bat" -Destination $destinationPath -Force
 Copy-Item -Path "main.py" -Destination $destinationPath -Force
-Copy-Item -Path "mozilla\com.jx.yt_dlp.json" -Destination $destinationPath -Force
+Copy-Item -Path "com.jx.yt_dlp.json" -Destination $destinationPath -Force
 Write-Host "Files copied to $destinationPath"
 
 $jsonFilePath = "$destinationPath\com.jx.yt_dlp.json"
